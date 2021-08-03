@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:visibility="gone"
+    android:id="@+id/confirm_pickup_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/fui_transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingVertical="8dp"
+        android:paddingHorizontal="18dp"
+        android:background="@drawable/slideupbg">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center | top"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_baseline_remove_24"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/confrim_pickup_spot"
+            android:fontFamily="@font/uber_move_bold"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft= "8dp"
+            android:layout_marginRight= "8dp"
+            android:background="@color/white"
+            />
+        <TextView
+            android:id="@+id/txt_address_pickup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/address_demo"
+            android:fontFamily="@font/uber_move"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:paddingVertical="8dp"
+            android:layout_marginBottom="16dp"
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:orientation="horizontal"
+        android:paddingVertical="8dp"
+        android:focusable="true">
+        <Button
+            android:id="@+id/btn_confirm_ride"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm_pickup"
+            android:textColor="@color/white"
+            android:fontFamily="@font/uber_move"
+
+
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

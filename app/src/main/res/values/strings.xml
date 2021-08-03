@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Car4</string>
+    <string name="sign_in_with_phone">Sign In with Phone</string>
+    <string name="register_text">"Let's Create your account"</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="continue_text">Continue</string>
+    <string name="title_activity_rider_home">RiderHomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="signout">Sign Out</string>
+    <string name="permission_require">Permission Location required</string>
+    <string name="driver_not_found">Drivers Not Found</string>
+    <string name="key_not_found">Key Driver not Found</string>
+    <string name="main_content">Main Content</string>
+    <string name="the_awesome_sliding_up_panel">The Awesome Sliding Up Panel</string>
+    <string name="welcome">Good Evening</string>
+    <string name="choose_saved_place">Choose a saved place</string>
+    <string name="city_name_not_found">City name not found</string>
+    <string name="where_to">Hi Where to go</string>
+    <string name="title_activity_request_driver">Map</string>
+    <string name="txt_123">12345677890 qwertyuioasdfghjklzxcvbnm</string>
+    <string name="pay_by_cash">Pay by Cash</string>
+    <string name="confrim_pickup_spot">Confrim Pickup Spot</string>
+    <string name="address_demo">Yums Bakery Lala Rukh Wah Cantt</string>
+    <string name="confirm_pickup">Confirm Pickup</string>
+    <string name="confirm_ride">Confirm Ride</string>
+    <string name="meet_driver_here">Meet Driver Here</string>
+</resources>

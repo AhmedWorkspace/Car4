@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sothree.slidinguppanel.SlidingUpPanelLayout
+    xmlns:sothree="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    sothree:umanoPanelHeight="170dp"
+    sothree:umanoOverlay="true"
+    sothree:umanoShadowHeight="0dp"
+    tools:context=".RiderHomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/slideupbg"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center | top "
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_baseline_remove_24"/>
+
+        <TextView
+            android:id="@+id/txt_welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/welcome"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/uber_move_bold"
+            android:layout_marginBottom="10dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft= "8dp"
+            android:layout_marginRight= "8dp"
+            android:background="@color/white"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10"
+            android:orientation="horizontal">
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/autocomplete_fragment"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
+                />
+
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_add_24"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_choose_saved_place"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_stars_24"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/choose_saved_place"
+                android:fontFamily="@font/uber_move_bold"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginVertical="5dp"
+                />
+
+
+
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_inflate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm_pickup"
+            android:textColor="@color/white"
+            android:fontFamily="@font/uber_move"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginHorizontal="40dp"
+
+            />
+
+    </LinearLayout>
+
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "742699061856",
+    "project_id": "car4-2f7c5",
+    "storage_bucket": "car4-2f7c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742699061856:android:eca6995849a30c9d58a905",
+        "android_client_info": {
+          "package_name": "com.ahmed.car4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "742699061856-4u8n40lujv3r8o0trd46qsahn1q5g279.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsi-Rk169k3mRA1N-_TYMOCtWJJ-4y02U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "742699061856-4u8n40lujv3r8o0trd46qsahn1q5g279.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
